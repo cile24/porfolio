@@ -1,157 +1,285 @@
 @media screen and (max-width:1024px){
-   header{
-    #logo{
-        width: 153px;
-        height: 100%;
-        margin-left: 108px;
-        flex-shrink: 0;
-    }
-
-    nav{
-        ul{
-            gap:45px;
-
-            li{
-                a{
-                    height:40px;
-                    width:90px;
-                }
-            }
-        }
-    }
-   } 
-   #skills{
-    .wrapper{
-        .title{
-            min-height:75px;
-        }
-        .flex{
-            .skills{
-                h2{
-                    font-size:25px;
-                }
-                ul{
-                    li{
-                        font-size:15px;
-                    }
-                }
-            }
-        }
-    }
-   }
-   #about{
-    .wrapper{
-        h1{
-            font-size:30px;
-        }
-        #about-flex{
-            display:flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            
-            figure{
-                figcaption{
-                    margin-left:0px;
-                }
-                img{
-                    margin-left:0px;
-                    width:70%
-                }
-            }
-            p{
-                margin:30px 0 30px 0;
-                text-align: center;
-                gap:5px;
-            }
-        }
-    }
-   }
-
-   #projects{
-    .wrapper{
-        #project-flex{
-            flex-wrap: wrap;
-            .project{
-                width: 40%;
-            }
-        }
-    }
-   }
-   #contact{
-    .wrapper{
-        .flex{
-            .contacts{
-                flex-direction: column;
-
-                h1{
-                    font-size:30px;
-                }
-                #button{
-                    display:flex;
-                    justify-content: center;
-                }
-              
-            }
-        }
-    }
-   }
-   footer{
-    .wrapper{
-       p{
-        font-size: 20px;
-       }
-        #icons{
-            font-size: 20px;
-        }
-        #copy{
-            font-size: 20px;
-        }
-    }
-   }
-}
-
-@media screen and (max-width:757px){
     header{
-        #logo{
-            width:119px;
-            margin-left: 0px;
-            height:70%;
-        }
-        nav{
-            ul{
-                li{
-                    a{
-                        height:31px;
-                        width:78px;
-                    }
-                }
-            }
-        }
+     #logo{
+         width: 153px;
+         height: 100%;
+         margin-left: 108px;
+         flex-shrink: 0;
+     }
+ 
+     nav{
+         ul{
+             gap:45px;
+ 
+             li{
+                 a{
+                     height:40px;
+                     width:90px;
+                 }
+             }
+         }
+     }
+    } 
+    #skills{
+     .wrapper{
+         .title{
+             min-height:75px;
+         }
+         .flex{
+             .skills{
+                 h2{
+                     font-size:25px;
+                 }
+                 ul{
+                     li{
+                         font-size:15px;
+                     }
+                 }
+             }
+         }
+     }
+    }
+    #about{
+     .wrapper{
+         h1{
+             font-size:30px;
+         }
+         #about-flex{
+             display:flex;
+             justify-content: center;
+             flex-direction: column;
+             align-items: center;
+             text-align: center;
+             
+             figure{
+                 figcaption{
+                     margin-left:0px;
+                 }
+                 img{
+                     margin-left:0px;
+                     width:70%
+                 }
+             }
+             p{
+                 margin:30px 0 30px 0;
+                 text-align: center;
+                 gap:5px;
+             }
+         }
+     }
+    }
+ 
+    #projects{
+     .wrapper{
+         #project-flex{
+             flex-wrap: wrap;
+             .project{
+                 width: 40%;
+             }
+         }
+     }
+    }
+    #contact{
+     .wrapper{
+         .flex{
+             .contacts{
+                 flex-direction: column;
+ 
+                 h1{
+                     font-size:30px;
+                 }
+                 #button{
+                     display:flex;
+                     justify-content: center;
+                 }
+               
+             }
+         }
+     }
     }
     footer{
-        .wrapper{
-            #links{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-direction: column;
-
-                   a{
-                    margin-top:15px;
-                   }
-                }
-                #icons{
-                    float:right;
-                    gap:20px;
-                }
-                #copy{
-                    display: flex;
-                    justify-content: flex-start;
-                }
-            }
+     .wrapper{
+        p{
+         font-size: 20px;
         }
-}
-
-    
+         #icons{
+             font-size: 20px;
+         }
+         #copy{
+             font-size: 20px;
+         }
+     }
+    }
+ }
+ 
+ @media screen and (max-width:757px){
+     header{
+         #logo{
+             width:119px;
+             margin-left: 0px;
+             height:70%;
+         }
+         nav{
+             ul{
+                 li{
+                     a{
+                         height:31px;
+                         width:78px;
+                     }
+                 }
+             }
+         }
+     }
+     #skills{
+         .wrapper{
+             .flex{
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: stretch;
+                 flex-direction: column;
+             }
+         }
+     }
+     footer{
+         .wrapper{
+             #links{
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 flex-direction: column;
+ 
+                    a{
+                     margin-top:15px;
+                    }
+                 }
+                 #icons{
+                     float:right;
+                     gap:20px;
+                 }
+                 #copy{
+                     display: flex;
+                     justify-content: flex-start;
+                 }
+             }
+         }
+ }
+ 
+ @media screen and (max-width:567px){
+     header{
+         #logo{
+             width:90px;
+             margin-left: 0px;
+             height:50%;
+         }
+         nav{
+             ul{
+                 li{
+                     a{
+                         height:27px;
+                         width:72px;
+                         font-size: 15px;
+                     }
+                 }
+             }
+         }
+     }
+     
+     #skills{
+         .wrapper{
+             .title{
+                 h1{
+                     font-size: 25px;
+                 }
+             }
+ 
+             .flex{
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: stretch;
+                 flex-direction: column;
+                 .skills{
+                     h2{
+                         font-size:20px;
+                     }
+                 }
+             }
+         }
+     }
+ 
+     #about{
+         .wrapper{
+             h1{
+                 font-size:20px;
+             }
+             #about-flex{
+                 figure{
+                     img{
+                         width:100%;
+                     }
+                 figcaption{
+                     font-size: 15px;
+                     margin-top:10px;
+                 }
+                 }
+                 p{
+                     font-size:15px;
+                     width:70%;
+                 }
+             }
+         }
+     }
+ 
+     #projects{
+         .wrapper{
+             #project-flex{
+                 flex-wrap: wrap;
+                 .project{
+                     width: 70%;
+                 }
+             }
+         }
+        }
+     #contact{
+         .wrapper{
+             .flex{
+                 .contacts{
+                     .form{
+                         height:44px;
+                         padding:10px;
+                         font-size:15px;
+                     }
+                     h1{
+                         font-size:25px;
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+ @media screen and (max-width:513px){
+     header{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: row;
+             nav{
+                 ul{
+                     gap:0px;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: space-between;
+ 
+                     li{
+                         &:last-of-type{
+                             margin-right:0px;
+                         }
+                     }
+                 }
+         }
+     }
+ }
+ 
+     
+ 
+ 

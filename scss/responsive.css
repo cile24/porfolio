@@ -79,6 +79,12 @@
     height: 31px;
     width: 78px;
   }
+  #skills .wrapper .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+  }
   footer .wrapper #links {
     display: flex;
     justify-content: space-between;
@@ -95,5 +101,74 @@
   footer .wrapper #copy {
     display: flex;
     justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 567px) {
+  header #logo {
+    width: 90px;
+    margin-left: 0px;
+    height: 50%;
+  }
+  header nav ul li a {
+    height: 27px;
+    width: 72px;
+    font-size: 15px;
+  }
+  #skills .wrapper .title h1 {
+    font-size: 25px;
+  }
+  #skills .wrapper .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  #skills .wrapper .flex .skills h2 {
+    font-size: 20px;
+  }
+  #about .wrapper h1 {
+    font-size: 20px;
+  }
+  #about .wrapper #about-flex figure img {
+    width: 100%;
+  }
+  #about .wrapper #about-flex figure figcaption {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  #about .wrapper #about-flex p {
+    font-size: 15px;
+    width: 70%;
+  }
+  #projects .wrapper #project-flex {
+    flex-wrap: wrap;
+  }
+  #projects .wrapper #project-flex .project {
+    width: 70%;
+  }
+  #contact .wrapper .flex .contacts .form {
+    height: 44px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  #contact .wrapper .flex .contacts h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 513px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  header nav ul {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header nav ul li:last-of-type {
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=responsive.css.map */
