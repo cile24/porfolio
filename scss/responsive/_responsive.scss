@@ -113,24 +113,23 @@
 }
 
 @media screen and (max-width:756px){
-    header{
-        #logo{
-            width:136px;
-            margin-left:37px;
-        }
-        nav{
-            ul{
-                gap:30px;
-
-                li{
-                    a{
-                        height:40px;
-                        width:70px;
+        header{
+            #logo{
+                width:159px;
+                margin-left: 13px;
+            }
+            nav{
+                ul{
+                    li{
+                        a{
+                            height:32px;
+                            width:97px;
+                        }
                     }
                 }
             }
         }
-    }
+    
     footer{
         .wrapper{
             #links{
@@ -142,4 +141,5 @@
         }
     }
 }
+
     
