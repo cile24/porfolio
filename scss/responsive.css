@@ -162,6 +162,9 @@
     align-items: center;
     flex-direction: row;
   }
+  header nav {
+    display: none;
+  }
   header nav ul {
     gap: 0px;
     display: flex;
