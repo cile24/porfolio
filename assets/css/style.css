@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:"Roboto Mono", monospace ; ;
+    padding-top: 150px;
+}
+/*header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:150px;
+    background-color: #2388fa;
+    position: fixed;
+    z-index: 999;
+    top:0;
+}
+
+#logo{
+    width: 150px;
+    height: 100%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+#logo img{
+    width:100%;
+    height: 100%;
+}
+#logo img:hover{
+    transform: scale(1.1);
+}
+ nav a{
+    text-decoration: none;
+    margin-top: 50px;
+    color: #2388fa;
+    height: 50px;
+    width: 150px;
+    background-color: #fff;;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+nav a:hover{
+    background-color: #333;
+}
+ nav a:last-of-type {
+    margin-right: 70px
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+
+
+/*kraj headera*/
+
+/*skills pocetak*/
+.wrapper{
+    margin:0 auto;
+    width:80%;
+    min-height:100px;
+}
+
+#skills{
+    text-align: center;
+    width: 100%;
+    color:#2388fa;
+}
+.title{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+    width:100%;
+    min-height:9em;
+    margin-top:0.625em;
+}
+.skills h2{
+    font-size: 35px;
+}
+.skills li{
+    font-size:20px;
+}
+
+ul{
+    list-style-type: none;
+}
+.title .line{
+    width:30%;
+    height:45px;
+    border-bottom: 2px solid #2388fa;
+}
+/*skills kraj*/
+
+/*about pocetak*/
+#about{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 250px;
+    color: #fff;
+    background-color: rgba(35, 136, 250, .9);
+}
+#about h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+#about-flex{
+    display: flex;
+    justify-content: space-around;
+}
+#about figure{
+    width:30%;
+}
+#about p{
+    font-size: 20px;
+    width: 60%;
+    text-align: justify;
+    margin-top:81px;
+}
+#about figure img{
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid #f5f9fa;
+    margin-left:150px;
+}
+#about figcaption{
+    font-size:25px;
+    margin-left:150px;
+}
+/*about kraj*/
+/*projects pocetak*/
+
+#projects h1{
+    color:#2388fa;
+}
+
+#project-flex{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#projects #project-flex figure img{
+    width: 100%;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+}
+#projects #project-flex figure img:hover{
+    transform: scale(1.1);
+    background-color: #2388fa;
+}
+
+#projects #project-flex figure {
+    font-size: 25px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 3px;
+}
+#projects figcaption{
+    color:#2388fa;
+   text-align: center;
+}
+#projects figcaption:hover{
+    text-decoration: underline;
+    
+}
+
+/*projects kraj*/
+/*contats pocetak*/
+#contact{
+    width:100%;
+    padding:15px;
+    background-color: #2388fa;
+}
+
+.contacts{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+.contacts h1{
+    color:#fff
+}
+.form{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(35, 136, 250, .9);
+    background-color: rgba(248, 248, 248, .9);
+    padding: 10px;
+    color: #2388fa;
+    font-size: 20px; 
+}
+.message{
+    height:100px;
+}
+#button{
+    width: 90px;
+    padding: 15px;
+    background-color: rgba(248, 248, 248, .9);
+    color: #2388fa;
+    border-radius: 5px;
+    float: right;
+    border: 2px solid rgba(35, 136, 250, .9);
+}
+#button:hover{
+    background-color: #333
+}
+
+/*contacts kraj*/
+/*footer pocetak*/
+footer{
+    width: 100%;
+    min-height: 100px;
+    background-color: #2388fa;
+    font-size: 30px;
+    color:#fff
+    }
+footer a{
+    color:#fff
+    }
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    font-size: 25px;
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#links a{
+    margin-top:25px;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    gap:35px;
+}
+i:hover{
+    transform: scale(1.3);
+}
+#copy{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+/*footer kraj*/

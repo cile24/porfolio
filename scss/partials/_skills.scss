@@ -1,0 +1,42 @@
+#skills{
+    text-align: center;
+    width:100%;
+    color:$primary-color;
+
+    .wrapper{
+        @extend %wrapp;
+
+        .title{
+            @extend %title;
+        }
+            .line{
+                @extend %line;
+            }
+
+            .flex{
+                @include flex(space-between, stretch, row);
+
+                .skills{
+                    width:100%;
+                    min-height: 9em;
+                    margin-top:0.625em;
+
+                    h2{
+                        font-size:35px;
+
+                    }
+                    ul{
+                        list-style-type: none;
+
+                            li{
+                                font-size:$font-2
+                            }
+                    }
+                  
+                }
+            }
+       
+    }
+}
+
+

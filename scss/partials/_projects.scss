@@ -1,0 +1,65 @@
+#projects{
+    .wrapper{
+
+        @extend %wrapp;
+        .title{
+
+            @extend %title;
+
+            .line{
+
+                @extend %line
+            }
+        }
+
+       h1{
+        color:$primary-color;
+       } 
+
+       #project-flex{
+
+            width:100%;
+            min-height:300px;
+            @include flex (space-between, stretch, row);
+
+            figure{
+                font-size: $font-1;
+                margin: $margin-3;
+                text-align: center;
+                box-sizing: border-box;
+                padding: $padding-1;
+                border-radius: $border-r;
+
+                img{
+
+                    width:100%;
+                    margin:$margin-3;
+                    box-sizing: border-box;
+                    padding:$padding-1;
+                    border-radius: $border-r;
+
+                    &:hover{
+                        transform: scale(1.1);
+                        background-color: $primary-color;
+                    }
+                }
+
+                figcaption{
+                    color:$primary-color;
+                    text-align: center;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+       }
+    }
+ 
+}
+
+
+
+
+
+

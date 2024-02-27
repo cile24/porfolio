@@ -1,0 +1,26 @@
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/inheritance";
+
+a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+body{
+    font-family: "Roboto Mono", monospace;
+    margin-top:$margin-4;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import "./partials/header";
+@import "./partials/skills";
+@import "./partials/about";
+@import "./partials/projects";
+@import "./partials/contact";
+@import "./partials/footer";

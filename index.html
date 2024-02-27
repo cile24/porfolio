@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio Marko Aleksić</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="Portfolio, Skills, Projects, CSS, HTML, SASS">
+        <meta name="description" content="Hello, my name is Marko and this is my Portfolio. I'm doing this for the web design class.">
+        <meta name="author" content="Portfolio - Marko Aleksić">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="scss/style.css"/>
+        <link rel="stylesheet" type="text/css" href="scss/responsive.css">
+    </head>
+    
+    <body>
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="logo"/></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li> 
+                    <li><a href="#contact">Contact</a></li>         
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="skills">
+                <div class="wrapper">
+                    <div class="title">
+                        <div class="line"></div>
+                        <h1>My skills</h1>
+                        <div class="line"></div>
+                    </div>
+                    <div class="flex">
+                        <div class="skills">
+                            <h2>Current skills:</h2>
+                                <ul>
+                                    <li>HTML & CSS</li>
+                                    <li>Sass & Less</li>
+                                    <li>SEO</li>
+                                    <li>Responsive Design</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                        </div>
+                        <div class="skills">
+                            <h2>Skills to be learned:</h2>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                                <li>C++</li>
+                                <li>JQuery</li>
+                                <li>Many more</li>
+                            </ul>  
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div id="about">
+                <div class="wrapper">
+                        <h1>About me</h1>
+                        <div id="about-flex">
+                    <figure>
+                        <img src="assets/img/me.jpg" Alt="me">
+                        <figcaption>Marko Aleksić</figcaption>
+                    </figure>
+           
+            <p>Hello, my name is Marko, and I'm an IT student of the ICT college. I was born in Loznica, Serbia, but currently live and study in Belgrade. I like to play video games and would like to become a programmer someday. </p>
+
+                </div>
+            </div>
+        </div>
+            <div id="projects">
+                <div class="wrapper">
+                    <div class="title">
+                        <div class="line"></div>
+                        <h1>Projects</h1>
+                        <div class="line"></div>
+                    </div>
+                    <div id="project-flex">
+                        <figure class="project">
+                            <a href="https://cile24.github.io/VoyageMark.github.io/index.html" target="_blank">
+                                <img src="assets/img/sajt.png" alt="sajt"/>
+                                <figcaption>VoyageMark</figcaption>
+                            </a>
+                        </figure>
+                        <figure class="project">
+                            <a href="https://cile24.github.io/VoyageMark.github.io/index.html" target="_blank">
+                                <img src="assets/img/sajt.png" alt="sajt"/>
+                                <figcaption>Project 2</figcaption>
+                            </a>
+                        </figure>
+                        <figure class="project">
+                            <a href="https://cile24.github.io/VoyageMark.github.io/index.html" target="_blank">
+                                <img src="assets/img/sajt.png" alt="sajt"/>
+                                <figcaption>Project 3</figcaption>
+                            </a>
+                        </figure>
+                        <figure class="project">
+                            <a href="https://cile24.github.io/VoyageMark.github.io/index.html" target="_blank">
+                                <img src="assets/img/sajt.png" alt="sajt"/>
+                                <figcaption>Project 4</figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <div class="wrapper">
+                    <div class="flex">
+                        <div class="contacts">
+                            <h1>Contact me</h1>
+                            <form action="#" method="GET">
+                                <input type="text" name="userSubject"  maxlength="50" placeholder="Subject" class="form" required  />
+                                <input type="text" name="userName"  maxlength="40" placeholder="Name" class="form" required />
+                                <input type="email" name="userEmail"  maxlength="40" placeholder="Email" class="form" required />
+                                <textarea  name="userMessage" placeholder="Message" rows="10" class="form message" required></textarea>
+                                <input type="submit" id="button" name="tbSend" value="Send"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="footer">
+                <div class="wrapper">
+                    <div id="links">
+                        <a href="scss/style.css"><p>Style.css</p></a>
+                        <a href="scss/style.scss"><p>Style.scss</p></a>
+                        <a href=""><p>Media.css</p></a>
+                        <a href="scss/responsive/_responsive.scss"><P>Media.scss</P></a>
+                    </div>
+                    <div id="icons">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-sitemap" aria-hidden="true"></i></a>
+                    </div>
+                    <div id="copy">
+                            <p>Copyright ©</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+%wrapp{
+    width:80%;
+    margin:0 auto;
+    min-height:100px;
+}
+
+%title{
+    min-height: 100px;
+    @include flex(space-between, center, row);
+
+    
+}
+%line{
+    width:30%;
+    height:45px;
+    border-bottom: 2px solid $primary-color;
+}

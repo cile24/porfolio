@@ -1,0 +1,50 @@
+#about{
+    margin-top:10px;
+    width:100%;
+    min-height:250px;
+    color: $text-color;
+    background-color: $primary-color;
+
+    .wrapper{
+        @extend %wrapp;
+
+        h1{
+            margin-bottom:$margin-3;
+            text-align:center;
+            font-size:40px;
+        }
+        #about-flex{
+            @include flex(space-around);
+    
+            figure{
+                width:30%;
+        
+                img{
+                    width:50%;
+                    border-radius: 50%;
+                    border: 1px solid #f5f9fa;
+                    margin-left: $margin-4;
+                }
+        
+                figcaption{
+                    font-size: $font-1;
+                    margin-left: $margin-4;
+                }
+            }
+            p{
+                font-size: $font-2;
+                width:60%;
+                text-align: justify;
+            }
+        }
+    }
+   
+} 
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px) {
+  header #logo {
+    width: 153px;
+    height: 100%;
+    margin-left: 108px;
+    flex-shrink: 0;
+  }
+  header nav ul {
+    gap: 45px;
+  }
+  header nav ul li a {
+    height: 40px;
+    width: 90px;
+  }
+  #skills .wrapper .title {
+    min-height: 75px;
+  }
+  #skills .wrapper .flex .skills h2 {
+    font-size: 25px;
+  }
+  #skills .wrapper .flex .skills ul li {
+    font-size: 15px;
+  }
+  #about .wrapper h1 {
+    font-size: 30px;
+  }
+  #about .wrapper #about-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #about .wrapper #about-flex figure figcaption {
+    margin-left: 0px;
+  }
+  #about .wrapper #about-flex figure img {
+    margin-left: 0px;
+    width: 70%;
+  }
+  #about .wrapper #about-flex p {
+    margin: 30px 0 30px 0;
+    text-align: center;
+    gap: 5px;
+  }
+  #projects .wrapper #project-flex {
+    flex-wrap: wrap;
+  }
+  #projects .wrapper #project-flex .project {
+    width: 40%;
+  }
+  #contact .wrapper .flex .contacts {
+    flex-direction: column;
+  }
+  #contact .wrapper .flex .contacts h1 {
+    font-size: 30px;
+  }
+  #contact .wrapper .flex .contacts #button {
+    display: flex;
+    justify-content: center;
+  }
+  footer .wrapper p {
+    font-size: 20px;
+  }
+  footer .wrapper #icons {
+    font-size: 25px;
+  }
+  footer .wrapper #copy {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
