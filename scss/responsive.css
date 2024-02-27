@@ -69,24 +69,30 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 757px) {
   header #logo {
-    width: 157px;
-    height: 100%;
+    width: 159px;
     margin-left: 13px;
-    flex-shrink: 0;
-  }
-  header nav ul {
-    gap: 35px;
   }
   header nav ul li a {
-    height: 30px;
-    width: 70px;
+    height: 32px;
+    width: 97px;
   }
   footer .wrapper #links {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+  }
+  footer .wrapper #links a {
+    margin-top: 15px;
+  }
+  footer .wrapper #icons {
+    float: right;
+    gap: 20px;
+  }
+  footer .wrapper #copy {
+    display: flex;
+    justify-content: flex-start;
   }
 }/*# sourceMappingURL=responsive.css.map */
