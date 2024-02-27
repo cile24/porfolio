@@ -231,8 +231,15 @@
  
      #projects{
          .wrapper{
+            h1{
+                font-size: 20px;
+            }
              #project-flex{
                  flex-wrap: wrap;
+                    figure{
+                        font-size:15px;
+
+                    }
                  .project{
                      width: 70%;
                  }
