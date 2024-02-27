@@ -112,15 +112,14 @@
    }
 }
 
-@media screen and (max-width:756px){
+@media screen and (max-width:756px) {
     header{
         #logo{
             width: 157px;
             height: 100%;
             margin-left: 13px;
             flex-shrink: 0;
-        }
-    
+        }  
         nav{
             ul{
                 gap:35px;
