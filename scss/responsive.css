@@ -181,4 +181,7 @@
   header nav ul li:last-of-type {
     margin-right: 0px;
   }
+  #projects .wrapper #project-flex {
+    width: 90%;
+  }
 }/*# sourceMappingURL=responsive.css.map */
