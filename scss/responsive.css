@@ -141,6 +141,7 @@
     width: 70%;
   }
   #projects .wrapper #project-flex {
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   #projects .wrapper #project-flex figure {
