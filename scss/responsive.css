@@ -167,23 +167,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-  }
-  header #icon-bars i {
-    display: block;
-    font-size: 35px;
-  }
-  header nav {
-    display: none;
-  }
-  header nav ul {
-    gap: 0px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
-  header nav ul li:last-of-type {
+  nav ul {
+    gap: 0px;
+  }
+  nav ul li:last-of-type {
     margin-right: 0px;
+  }
+  nav ul li a {
+    width: 81px;
+    height: 35px;
+    margin-right: 10px;
   }
   #projects .wrapper #project-flex {
     width: 90%;

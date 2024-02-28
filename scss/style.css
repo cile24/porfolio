@@ -66,10 +66,6 @@ header #logo img {
 header #logo img:hover {
   transform: scale(1.1);
 }
-header #icon-bars i {
-  display: none;
-  font-size: 35px;
-}
 header nav ul {
   display: flex;
   justify-content: space-between;
