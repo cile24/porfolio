@@ -143,15 +143,21 @@
   #projects .wrapper #project-flex {
     flex-wrap: wrap;
   }
+  #projects .wrapper #project-flex figure {
+    font-size: 15px;
+  }
   #projects .wrapper #project-flex .project {
     width: 70%;
   }
-  #contact .wrapper .flex .contacts .form {
+  #projects .wrapper h1 {
+    font-size: 20px;
+  }
+  #projects #contact .wrapper .flex .contacts .form {
     height: 44px;
     padding: 10px;
     font-size: 15px;
   }
-  #contact .wrapper .flex .contacts h1 {
+  #projects #contact .wrapper .flex .contacts h1 {
     font-size: 25px;
   }
 }
