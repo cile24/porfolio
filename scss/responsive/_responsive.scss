@@ -231,9 +231,7 @@
  
      #projects{
          .wrapper{
-            h1{
-                font-size: 20px;
-            }
+            
              #project-flex{
                  flex-wrap: wrap;
                     figure{
@@ -244,6 +242,8 @@
                      width: 70%;
                  }
              }
+             h1{
+                font-size: 20px;
          }
         }
      #contact{
@@ -263,6 +263,7 @@
          }
      }
  }
+}
  
  @media screen and (max-width:513px){
      header{
