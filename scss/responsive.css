@@ -171,6 +171,9 @@
   }
   nav ul {
     gap: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
   nav ul li:last-of-type {
     margin-right: 0px;
