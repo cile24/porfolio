@@ -306,6 +306,29 @@
         }
      }
  }
+
+
+ @media screen and (max-width:400px){
+    footer{
+        .wrapper{
+            #links{
+                a{
+                    margin-top:7px;
+                }
+            }
+            p{
+                font-size:15px;
+            }
+            #icons{
+                font-size: 15px;
+
+            }
+            #copy{
+                font-size: 15px;
+            }
+        }
+    }
+ }
  
      
  

@@ -188,4 +188,18 @@
   #projects .wrapper #project-flex {
     width: 90%;
   }
+}
+@media screen and (max-width: 400px) {
+  footer .wrapper #links a {
+    margin-top: 7px;
+  }
+  footer .wrapper p {
+    font-size: 15px;
+  }
+  footer .wrapper #icons {
+    font-size: 15px;
+  }
+  footer .wrapper #copy {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=responsive.css.map */
