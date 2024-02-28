@@ -250,14 +250,15 @@
          .wrapper{
              .flex{
                  .contacts{
+                    h1{
+                        font-size:25px;
+                    }
                      .form{
                          height:44px;
                          padding:10px;
                          font-size:15px;
                      }
-                     h1{
-                         font-size:25px;
-                     }
+                   
                  }
              }
          }
