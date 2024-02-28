@@ -271,9 +271,16 @@
  @media screen and (max-width:513px){
      header{
          display: flex;
-         justify-content: center;
+         justify-content: space-around;
          align-items: center;
          flex-direction: row;
+
+         #icon-bars{
+            i{
+                display: block;
+                font-size: 35px;
+            }
+        }
              nav{
                 display:none;
                  ul{
